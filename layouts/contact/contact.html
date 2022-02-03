@@ -4,9 +4,9 @@
 
 {{ define "main" }}
 {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading )}}
-<div class="container pt-4 pt-md-10 pb-4 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
+<div class="container pt-17 pb-17">
+  <div class="row">
+    <div class="col-12 col-md-6 {{ if eq .Params.align "right" }}offset-md-6{{ end }}">
       <div class="service service-single">
         <div class="content">{{.Content}}</div>
       <ul>
@@ -17,6 +17,7 @@
         <li style="white-space: pre-wrap;"><strong>Address: </strong><br>{{ .Site.Data.contact.address }}</li>
         {{ end }}
       </ul>
+    </div>
     </div>
   </div>
 </div>
