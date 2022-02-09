@@ -3,4 +3,4 @@ node_modules
 .idea
 public
 resources
-
+local_git_config.sh
