@@ -10,23 +10,8 @@
       <div class="service service-single">
         <div class="content">{{.Content}}</div>
       <ul>
-        <canvas id="contactCanvas" width="300" height="20" > </canvas>            
-        <script>
-          var c = document.getElementById("contactCanvas");
-          var ctx = c.getContext("2d");
-
-          // draw bold text
-          var text = 'Email: ';
-          ctx.font = 'bold 17px Arial';
-          ctx.fillText(text, 0, 20);
-
-          // measure text
-          var textWidth = ctx.measureText(text).width;
-
-          // draw normal text
-          ctx.font = 'normal 17px Arial';
-          ctx.fillText('mch@ratio-engineering.com', 0 + textWidth, 20);
-        </script> 
+        <canvas id="contactCanvas" width="300" height="25" > </canvas>            
+        <img src = '/images/email_contact.jpg' width="250" height="18">  
         <li><strong>CVR: </strong>{{ .Site.Data.contact.cvr }}</li>
         {{ if .Site.Data.contact.address }}
         <li style="white-space: pre-wrap;"><strong>Address: </strong><br>{{ .Site.Data.contact.address }}</li>

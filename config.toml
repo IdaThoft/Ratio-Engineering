@@ -1,4 +1,4 @@
-baseURL = "https://ratioengineering.onrender.com"
+
 languageCode = "en-us"
 title = "Ratio Engineering"
 themesDir = "../.."
@@ -9,10 +9,9 @@ themesDir = "../.."
     min = "0.92.0"
     
 [params]
-  google_analytics_id=""
 
   [params.logo]
-    mobile = "images/ratiologo.svg"
+    mobile = "images/ratiologomobile.svg"
     mobile_height = "36px"
     mobile_width = "36px"
     desktop = "images/ratiologo.svg" 
