@@ -1,4 +1,4 @@
-baseURL = "https://www.ratioengineering.onrender.com"
+baseURL = {{ app.request.getBaseURL() }}
 languageCode = "en-us"
 title = "Ratio Engineering"
 themesDir = "../.."
