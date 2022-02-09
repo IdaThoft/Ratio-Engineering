@@ -4,11 +4,18 @@
       <div class="col-12">
         <div class="sub-footer-inner">
           <ul>
-            <li><strong>Email: </strong><a href="mailto:{{ .Site.Data.contact.email }}">
-                {{ .Site.Data.contact.email }}</a></li>
+            <canvas id="emailCanvas" width="250" height="20" > </canvas>            
+            <script>
+              var c = document.getElementById("emailCanvas");
+              var ctx = c.getContext("2d");
+              ctx.font = "15px Arial";
+              ctx.fillStyle = "white";
+              ctx.fillText("Email: mch@ratio-engineering.com", 0, 20);
+            </script> 
+            <body>
+            </body>
           </ul>
           <ul>
-            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
             <li class="copyright">© {{ now.Format "2006" }} {{.Site.Title}}</li>
           </ul>
         </div>
