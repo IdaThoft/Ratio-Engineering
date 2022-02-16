@@ -1,6 +1,7 @@
 
 languageCode = "en-us"
 title = "Ratio Engineering"
+base = "www.ratio-engineering.com"
 themesDir = "../.."
 
 [module]
@@ -11,7 +12,7 @@ themesDir = "../.."
 [params]
 
   [params.logo]
-    mobile = "images/ratiologomobile.svg"
+    mobile = "images/ratiologo.svg"
     mobile_height = "36px"
     mobile_width = "36px"
     desktop = "images/ratiologo.svg" 
