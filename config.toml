@@ -1,7 +1,8 @@
 
+BaseURL = "www.ratio-engineering.com"
 languageCode = "en-us"
 title = "Ratio Engineering"
-baseurl = "www.ratio-engineering.com"
+
 themesDir = "../.."
 
 [module]
@@ -13,8 +14,8 @@ themesDir = "../.."
 
   [params.logo]
     mobile = "images/ratiologo.svg"
-    mobile_height = "36px"
-    mobile_width = "36px"
+    mobile_height = "29px"
+    mobile_width = "217px"
     desktop = "images/ratiologo.svg" 
     desktop_height = "29px"
     desktop_width = "217px"
